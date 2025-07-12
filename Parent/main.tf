@@ -24,3 +24,5 @@ module "resource_group" {
   rg_location = "centralindia"
 
 }
+
+#This is new edit
