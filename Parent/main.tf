@@ -5,3 +5,9 @@ module "resource_group" {
 
 }
 
+module "resource_group" {
+  source      = "../Child/azure_resource_group"
+  rg_name     = "kkrg-infra3"
+  rg_location = "centralindia"
+
+}
